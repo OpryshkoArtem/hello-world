@@ -15,5 +15,6 @@
 }
 
 .footer {
+	box-sizing: border-box;
 	clear: left;
 }
