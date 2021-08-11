@@ -24,3 +24,8 @@ div {
 .block_black {
 	background-color: black;
 }
+
+footer {
+	box-sizing: border-box;
+	clear: both;
+}
