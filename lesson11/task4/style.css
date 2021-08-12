@@ -1,0 +1,29 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+}
+
+.text {
+	position: relative;
+	display: flex;
+	margin: 16px;
+	border-bottom: 1px dotted black;
+	position: relative;
+}
+
+.tooltip {
+	position: absolute;
+	bottom: -40px;
+	background-color: grey;
+	color: white;
+	border-radius: 4px;
+	padding: 8px;
+	display: none;
+}
+
+.text:hover .tooltip {
+	display: block;
+}
