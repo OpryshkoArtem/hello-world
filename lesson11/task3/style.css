@@ -90,7 +90,7 @@ body {
 	cursor: pointer;
 }
 
-.menu-button:hover {
+.dropdown:hover {
 	opacity: 1;
 }
 
