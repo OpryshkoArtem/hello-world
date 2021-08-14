@@ -5,15 +5,14 @@
 .mountains {
 	width: 300px;
 	height: 500px;
-	background-color: beige;
-	background-image: url(mountains.jpg);
+	background-image: url(mountains.png);
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 
 	font-size: 32px;
 	font-weight: 700;
-	color: #000;
+	color: #fff;
 	padding-top: 32px;
 	text-align: center;
 }
