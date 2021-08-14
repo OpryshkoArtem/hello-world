@@ -3,6 +3,7 @@
 	background-image: url(sprites.png);
 	width: 100px;
 	height: 100px;
+	background-position-x: -200px;
 }
 
 .icon:hover {
