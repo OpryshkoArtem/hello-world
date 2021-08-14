@@ -1,5 +1,10 @@
-body {
+/* body {
 	background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+13/hw2/example.jpg);
 	background-position-x: 3px;
 	background-position-y: 1px;
+} */
+
+.repeat-img {
+	height: 100vh;
+	background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+13/hw2/example.jpg);
 }
