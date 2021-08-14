@@ -1,9 +1,8 @@
 * {
 	margin: 0;
-	box-sizing: border-box;
 }
 
 body {
 	background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+13/hw2/example.jpg);
-	background-position: 2px 0;
+	background-position: 1px 1px;
 }
