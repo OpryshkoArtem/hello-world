@@ -2,11 +2,15 @@
 	box-sizing: border-box;
 }
 
-.nature {
-	display: block;
+.image-container {
 	margin: 50px auto;
-	max-width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.nature {
 	border-radius: 20px;
+	/* max-width: 100%; */
 }
 
 .gallery {
