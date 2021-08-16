@@ -12,6 +12,7 @@
 .image-container img {
 	display: block;
 	margin: 0 auto;
+	max-width: 100%;
 	border-radius: 20px;
 	width: auto;
 }
