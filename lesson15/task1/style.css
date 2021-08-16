@@ -4,14 +4,15 @@
 
 .image-container {
 	margin: 50px auto;
-	max-width: 100%;
+	overflow: hidden;
 }
 
 .image-container img {
 	display: block;
 	margin: 0 auto;
-
 	border-radius: 20px;
+	max-width: 100%;
+	height: auto;
 }
 
 .gallery {
