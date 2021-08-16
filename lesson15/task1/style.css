@@ -5,7 +5,7 @@
 .image-container {
 	position: relative;
 	margin: 50px 0;
-	overflow: hidden;
+	overflow-x: hidden;
 }
 
 .image {
