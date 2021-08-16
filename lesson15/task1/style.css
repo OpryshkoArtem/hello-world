@@ -6,12 +6,11 @@
 
 .image-container {
 	margin: 50px 0;
+	overflow: hidden;
 }
 
-.image-container img {
+.tree {
 	display: block;
 	margin: 0 auto;
-	max-width: 100%;
-	width: auto;
 	border-radius: 20px;
 }
