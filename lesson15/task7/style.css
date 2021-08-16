@@ -4,10 +4,7 @@
 
 .image-container {
 	margin: 50px auto;
-	position: relative;
-	padding: 0;
 	overflow: hidden;
-	line-height: 0;
 }
 
 .tree {
@@ -22,6 +19,7 @@
 
 .gallery {
 	display: flex;
+	flex-wrap: wrap;
 }
 
 figure {
