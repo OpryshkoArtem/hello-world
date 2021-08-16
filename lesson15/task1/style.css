@@ -4,11 +4,13 @@
 
 .image-container {
 	width: 100%;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 .grass {
 	display: block;
-	margin: 50px auto;
+	margin: 0 auto;
 	border-radius: 20px;
 	max-width: 100%;
 }
