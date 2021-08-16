@@ -9,14 +9,17 @@
 .tree {
 	display: block;
 	margin: 0 auto;
+	position: relative;
 	max-width: 100%;
+	width: auto;
 	border-radius: 20px;
 }
 
 
 .gallery {
 	display: flex;
-	flex-wrap: wrap;
+	/* flex-wrap: wrap;
+	flex-shrink: 0; */
 }
 
 figure {
