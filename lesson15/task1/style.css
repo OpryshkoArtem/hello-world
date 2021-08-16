@@ -7,13 +7,12 @@
 .image-container {
 	margin-top: 50px;
 	margin-bottom: 50px;
-	width: 100%;
 	overflow-x: hidden;
 }
 
 .image-container img {
 	display: block;
 	margin: 0 auto;
-	width: auto;
+	max-width: 100%;
 	border-radius: 20px;
 }
