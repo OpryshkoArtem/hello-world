@@ -1,9 +1,4 @@
 .image-container {
-	overflow: hidden;
-}
-
-.image {
-	display: block;
-	margin: 0 auto;
-	max-width: 100%;
+	position: relative;
+	w100
 }

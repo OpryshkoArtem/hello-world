@@ -3,16 +3,14 @@
 }
 
 .image-container {
-	width: 100%;
-	margin-top: 50px;
-	margin-bottom: 50px;
+	margin: 50px 0;
+	display: flex;
+	justify-content: center;
 }
 
-.grass {
-	display: block;
-	margin: 0 auto;
-	border-radius: 20px;
+.image {
 	max-width: 100%;
+	border-radius: 20px;
 }
 
 .gallery {
