@@ -1,16 +1,15 @@
 * {
-	box-sizing: content-box;
+	box-sizing: border-box;
 }
 
 .image-container {
 	position: relative;
-	margin: 50px 0;
-	overflow-x: hidden;
+	margin: 50px auto;
+	overflow: hidden;
 }
 
 .image {
 	max-width: 100%;
-	width: auto;
 	height: auto;
 	display: block;
 	margin: 0 auto;
@@ -19,6 +18,7 @@
 
 .gallery {
 	display: flex;
+	flex-wrap: wrap;
 }
 
 figure {
