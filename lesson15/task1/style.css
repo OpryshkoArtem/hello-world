@@ -3,12 +3,12 @@
 }
 
 .image-container {
-	margin: 50px 0;
-	display: flex;
-	justify-content: center;
+	width: 100%;
 }
 
-.image-container img {
+.grass {
+	display: block;
+	margin: 50px auto;
 	border-radius: 20px;
 	max-width: 100%;
 }
