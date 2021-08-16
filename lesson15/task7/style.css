@@ -18,13 +18,11 @@
 
 .gallery {
 	display: flex;
-	/* flex-wrap: wrap;
-	flex-shrink: 0; */
 }
 
 figure {
-	margin: 16px;
-	box-shadow: 0px 7px 18px rgba(0, 0, 0, 0.75);
+	margin-right: 16px;
+	box-shadow: 0px 7px 18px -8px rgba(0, 0, 0, 0.75);
 }
 
 figcaption {
