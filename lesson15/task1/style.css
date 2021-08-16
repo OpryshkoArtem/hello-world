@@ -4,9 +4,11 @@
 
 .image-container {
 	margin: 50px auto;
+	position: relative;
 }
 
 .image {
+	position: relative;
 	display: block;
 	margin: 0 auto;
 	max-width: 100%;
