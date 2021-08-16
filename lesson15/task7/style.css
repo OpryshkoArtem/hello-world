@@ -3,7 +3,7 @@
 }
 
 .image-container {
-	margin: 50px 8px;
+	margin: 50px 0;
 }
 
 .tree {
@@ -24,7 +24,7 @@
 
 figure {
 	margin: 16px;
-	box-shadow: 0px 7px 18px -8px rgba(0, 0, 0, 0.75);
+	box-shadow: 0px 7px 18px rgba(0, 0, 0, 0.75);
 }
 
 figcaption {
