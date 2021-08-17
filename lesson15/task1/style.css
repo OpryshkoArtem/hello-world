@@ -3,41 +3,39 @@
 }
 
 .image-container {
-	margin: 50px 0;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
-.tree {
+.image-container img {
 	display: block;
-	margin: 0 auto;
+	margin: auto;
 	max-width: 100%;
 	border-radius: 20px;
 }
 
-
 .gallery {
 	display: flex;
-	flex-wrap: wrap;
 }
 
-figure {
+.card {
 	margin: 16px;
 	box-shadow: 0px 7px 18px -8px rgba(0, 0, 0, 0.75);
 }
 
-figcaption {
-	line-height: 30px;
-	text-transform: lowercase;
+.caption {
 	text-align: center;
+	line-height: 30px;
 }
 
-.opacity {
+.opacity-filter {
 	filter: opacity(50%);
 }
 
-.blur {
+.blur-filter {
 	filter: blur(4px);
 }
 
-.invert {
+.invert-filter {
 	filter: invert(100%);
 }

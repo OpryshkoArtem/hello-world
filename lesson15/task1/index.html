@@ -3,56 +3,49 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU="
       crossorigin="anonymous"
-      referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
   </head>
+
   <body>
     <div class="image-container">
       <img
-        class="tree"
         src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/big.jpeg"
-        alt="tree"
+        alt="Forest"
       />
     </div>
 
     <div class="gallery">
-      <div class="card">
-        <figure>
-          <img
-            class="opacity"
-            src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg"
-            alt="opacity"
-          />
-          <figcaption>opacity</figcaption>
-        </figure>
-      </div>
-      <div class="card">
-        <figure>
-          <img
-            class="blur"
-            src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg"
-            alt="blur"
-          />
-          <figcaption>blur</figcaption>
-        </figure>
-      </div>
-      <div class="card">
-        <figure>
-          <img
-            class="invert"
-            src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg"
-            alt="invert"
-          />
-          <figcaption>invert</figcaption>
-        </figure>
-      </div>
+      <figure class="card">
+        <img
+          class="opacity-filter"
+          src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg"
+          alt="opacity"
+        />
+        <figcaption class="caption">opacity</figcaption>
+      </figure>
+      <figure class="card">
+        <img
+          class="blur-filter"
+          src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg"
+          alt="blur"
+        />
+        <figcaption class="caption">blur</figcaption>
+      </figure>
+      <figure class="card">
+        <img
+          class="invert-filter"
+          src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg"
+          alt="invert"
+        />
+        <figcaption class="caption">invert</figcaption>
+      </figure>
     </div>
   </body>
 </html>
