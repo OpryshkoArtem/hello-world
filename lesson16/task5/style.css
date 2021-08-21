@@ -6,6 +6,7 @@
 	margin: 32px;
 }
 
-.form-control {
+.form-control,
+.language {
 	margin: 8px;
 }
