@@ -1,0 +1,35 @@
+* {
+	box-sizing: border-box;
+}
+
+.chess {
+	margin: 16px;
+	border-collapse: collapse;
+}
+
+tr {
+	height: 50px;
+}
+
+td {
+	width: 50px;
+	text-align: center;
+}
+
+tr:nth-child(even)>td:nth-child(odd) {
+	background-color: #000;
+}
+
+tr:nth-child(odd)>td:nth-child(even) {
+	background-color: #000;
+}
+
+tr:first-child>td,
+tr:last-child>td {
+	background-color: #fff !important;
+}
+
+tr>td:first-child,
+tr>td:last-child {
+	background-color: #fff !important;
+}
