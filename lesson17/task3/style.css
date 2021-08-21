@@ -5,6 +5,7 @@
 .chess {
 	margin: 16px;
 	border-collapse: collapse;
+	border: 1px solid #000;
 }
 
 tr {
@@ -14,6 +15,7 @@ tr {
 td {
 	width: 50px;
 	text-align: center;
+	border: 1px solid #000;
 }
 
 tr:nth-child(even)>td:nth-child(odd) {
@@ -27,9 +29,11 @@ tr:nth-child(odd)>td:nth-child(even) {
 tr:first-child>td,
 tr:last-child>td {
 	background-color: #fff !important;
+	border: none;
 }
 
 tr>td:first-child,
 tr>td:last-child {
 	background-color: #fff !important;
+	border: none;
 }
