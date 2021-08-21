@@ -14,5 +14,44 @@
     />
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <form>
+      <div class="form-wrapper">
+        <label
+          >Last Name
+          <input type="text" name="lastName" value="Emerson" readonly
+        /></label>
+      </div>
+      <div class="form-wrapper">
+        <label
+          >Age
+          <input type="number" name="age" max="10" min="3" value="17" required
+        /></label>
+      </div>
+      <div class="form-wrapper">
+        <input type="checkbox" name="agree" id="check-box" />
+        <label for="check-box">Accept terms and conditions</label>
+      </div>
+      <div class="form-wrapper">
+        <div class="choose-gender">
+          <input type="radio" name="gender" id="male" />
+          <label for="male">Male</label>
+          <input type="radio" name="gender" id="female" />
+          <label for="female">Female</label>
+          <input type="radio" name="gender" id="secret" checked />
+          <label for="secret">Secret</label>
+        </div>
+      </div>
+      <div class="form-wrapper">
+        <textarea
+          maxlength="10"
+          name="description"
+          placeholder="Write description..."
+        ></textarea>
+      </div>
+      <div class="form-wrapper">
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </body>
 </html>
