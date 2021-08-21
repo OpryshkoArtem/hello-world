@@ -15,38 +15,40 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="form-wrapper">
-      <input type="text" name="lastName" value="Emerson" />
-    </div>
-    <div class="form-wrapper">
-      <input type="number" name="age" value="17" />
-    </div>
-    <div class="form-wrapper">
-      <input type="checkbox" name="agree" id="check-box" />
-      <label for="check-box">Accept terms and conditions</label>
-    </div>
-    <div class="form-wrapper">
-      <div class="choose-gender">
-        <input type="radio" name="gender" id="male" checked />
-        <label for="male">Male</label>
+    <form>
+      <div class="form-wrapper">
+        <input type="text" name="lastName" value="Emerson" />
       </div>
-      <div class="choose-gender">
-        <input type="radio" name="gender" id="female" />
-        <label for="female">Female</label>
+      <div class="form-wrapper">
+        <input type="number" name="age" value="17" />
       </div>
-      <div class="choose-gender">
-        <input type="radio" name="gender" id="secret" />
-        <label for="secret">Secret</label>
+      <div class="form-wrapper">
+        <input type="checkbox" name="agree" id="check-box" />
+        <label for="check-box">Accept terms and conditions</label>
       </div>
-    </div>
-    <div class="form-wrapper">
-      <textarea
-        name="description"
-        placeholder="Write description..."
-      ></textarea>
-    </div>
-    <div class="form-wrapper">
-      <button type="submit">Submit</button>
-    </div>
+      <div class="form-wrapper">
+        <div class="choose-gender">
+          <input type="radio" name="gender" id="male" checked />
+          <label for="male">Male</label>
+        </div>
+        <div class="choose-gender">
+          <input type="radio" name="gender" id="female" />
+          <label for="female">Female</label>
+        </div>
+        <div class="choose-gender">
+          <input type="radio" name="gender" id="secret" />
+          <label for="secret">Secret</label>
+        </div>
+      </div>
+      <div class="form-wrapper">
+        <textarea
+          name="description"
+          placeholder="Write description..."
+        ></textarea>
+      </div>
+      <div class="form-wrapper">
+        <button type="submit">Submit</button>
+      </div>
+    </form>
   </body>
 </html>
