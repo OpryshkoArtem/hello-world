@@ -16,12 +16,9 @@ table {
 	border-collapse: collapse;
 }
 
-tr {
-	line-height: 40px;
-}
-
 th,
 td {
+	line-height: 40px;
 	padding: 4px;
 	text-align: right;
 	border: 1px solid #000;
