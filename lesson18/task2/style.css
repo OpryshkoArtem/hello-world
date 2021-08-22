@@ -2,6 +2,8 @@
 	margin: 64px;
 	width: 200px;
 	height: 50px;
+	text-align: center;
+	line-height: 50px;
 	background-color: coral;
 	text-transform: uppercase;
 	font-family: 'Courier New', Courier, monospace;
@@ -22,4 +24,8 @@
 	height: 32px;
 	fill: white;
 	vertical-align: middle;
+}
+
+.btn:hover>.svg-icon {
+	fill: green;
 }
