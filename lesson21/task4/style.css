@@ -36,16 +36,19 @@ h1 {
 
 .navigation {
 	width: 20%;
+	padding: 0.5em;
 }
 
 .section {
 	width: 60%;
 	font-size: 1.25em;
 	line-height: 1.75em;
+	padding: 0.5em;
 }
 
 .news {
 	width: 20%;
+	padding: 0.5em;
 }
 
 .section__header {
