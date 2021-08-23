@@ -39,21 +39,24 @@ h1 {
 	padding: 0.5em;
 }
 
-.section {
-	width: 60%;
-	font-size: 1.25em;
-	line-height: 1.75em;
+.news {
+	width: 20%;
 	padding: 0.5em;
 }
 
-.news {
-	width: 20%;
+.section {
+	width: 60%;
+	font-size: 1.25em;
 	padding: 0.5em;
 }
 
 .section__header {
 	text-align: center;
 	font-size: 5vw;
+}
+
+.units-list {
+	line-height: 1.75em;
 }
 
 .css-units {
