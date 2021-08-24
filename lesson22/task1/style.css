@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-	display: flex;
+	/* display: flex; */
 	margin: auto;
 }
 
@@ -17,15 +17,16 @@ body {
 	width: 100px;
 	height: 100px;
 	margin: 8px;
-	background-color: #8a2be2;
+	/* background-color: #8a2be2; */
+	background-color: #ff7f50;
 }
 
-@media (max-width: 599px) {
+@media (min-width: 600px) {
 	.container {
-		flex-direction: column;
+		display: flex;
 	}
 
 	.square {
-		background-color: #ff7f50;
+		background-color: #8a2be2;
 	}
 }
