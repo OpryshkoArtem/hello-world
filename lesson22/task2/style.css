@@ -45,9 +45,14 @@
 @media (min-width: 900px) {
 	.wrapper3 {
 		display: flex;
+
 	}
 
 	.wrapper2 {
-		flex-grow: 2;
+		flex: 2;
+	}
+
+	.box3 {
+		flex: 1;
 	}
 }
