@@ -9,6 +9,7 @@ html {
 }
 
 .header {
+	display: flex;
 	height: 3em;
 	padding: 0 1em;
 	background-color: #eee;
@@ -20,16 +21,10 @@ html {
 	outline: none;
 	border: none;
 	cursor: pointer;
-	position: relative;
-	top: calc(50% - 1em);
-}
-
-.btn span {
 	font-size: 2em;
 }
 
 .navigation {
-	background-color: aqua;
 	width: 20%;
 	padding: 0.5em;
 	display: none;
