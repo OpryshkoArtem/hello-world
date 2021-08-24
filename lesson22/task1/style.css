@@ -23,11 +23,13 @@ body {
 }
 
 @media (min-width: 600px) {
-	.container {
-		flex-direction: row;
-	}
-
 	.square {
 		background-color: #8a2be2;
+	}
+}
+
+@media (orientation: landscape) {
+	.container {
+		flex-direction: row;
 	}
 }
