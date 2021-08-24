@@ -35,7 +35,8 @@
 		display: flex;
 	}
 
-	.box {
+	.box1,
+	.box2 {
 		flex-grow: 1;
 	}
 }
