@@ -6,6 +6,8 @@
 .box {
 	height: 200px;
 	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .box1 {
@@ -21,7 +23,6 @@
 }
 
 .box-text {
-	margin: auto;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	padding: 8px;
 	background-color: #faebd7;
