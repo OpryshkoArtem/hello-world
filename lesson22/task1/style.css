@@ -9,7 +9,8 @@ body {
 }
 
 .container {
-	/* display: flex; */
+	display: flex;
+	flex-direction: column;
 	margin: auto;
 }
 
@@ -23,7 +24,7 @@ body {
 
 @media (min-width: 600px) {
 	.container {
-		display: flex;
+		flex-direction: row;
 	}
 
 	.square {
