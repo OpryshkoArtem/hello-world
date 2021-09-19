@@ -110,6 +110,56 @@
 }
 
 .headline {
-	background-color: skyblue;
-	height: 100px;
+	display: flex;
+	padding-top: 69px;
+	position: relative;
+
+	&__left {
+		background: transparent;
+		z-index: 10;
+	}
+
+	&__title {
+		max-width: 750px;
+	}
+
+	&__title h1{
+		margin: -4px;
+		padding-top: 4px;
+		font-family: 'Work Sans', sans-serif;
+		font-weight: 700;
+		font-size: 80px;
+		line-height: 85px;
+		color: #2B292D;
+		letter-spacing: -0.5px;
+	}
+
+	&__text {
+		max-width: 456px;
+		font-family: 'Work Sans', sans-serif;
+		font-size: 24px;
+		line-height: 34px;
+		color: #2B292D;
+		margin-top: 40px;
+	}
+
+	&__buttons {
+		display: flex;
+		margin-top: 36px;
+
+		.header__button + .header__button {
+			margin-left: 9px;
+		}
+	}
+
+	&__button {
+		background-color: #fff;
+		color: #3040C4;
+	}
+
+	&__right {
+		position: absolute;
+		right: -105px;
+		top: 84px;
+	}
 }
