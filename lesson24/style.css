@@ -1,10 +1,108 @@
-body {
-  background-color: #fff;
-}
-
-html {
+* {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+.wrapper {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #eee;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header {
+  min-height: 710px;
+  background-color: #F3C6BD;
+}
+.header__top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding-top: 39px;
+}
+.logo__img {
+  width: 60px;
+  height: 60px;
+  margin-right: 15px;
+}
+.logo__text {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: rgba(43, 41, 45, 0.6);
+}
+.logo__text span {
+  font-weight: 700;
+  font-size: 20px;
+  color: #2B292D;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navigation__list {
+  display: flex;
+  list-style-type: none;
+  margin-right: 75px;
+  margin-top: 12px;
+}
+.navigation__item + .navigation__item {
+  margin-left: 49px;
+}
+.navigation__link {
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #2B292D;
+}
+.navigation__link-active {
+  font-weight: 700;
+}
+.navigation__link-dd {
+  position: relative;
+}
+.navigation__link-dd::after {
+  content: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png");
+  position: absolute;
+  right: -19px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 160px;
+  height: 48px;
+  margin-top: 22px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), #3040C4;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  border-radius: 2px;
+  color: #fff;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.headline {
+  background-color: skyblue;
+  height: 100px;
 }
 
 /*# sourceMappingURL=style.css.map */
