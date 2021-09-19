@@ -54,19 +54,19 @@
 
 }
 
-.navigation {
+.nav {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 
-	&__list {
+	.navigation {
 		display: flex;
 		list-style-type: none;
 		margin-right: 75px;
 		margin-top: 12px;
 	}
 
-	&__item + .navigation__item {
+	&__item + .nav__item {
 		margin-left: 49px;
 	}
 
@@ -91,7 +91,7 @@
 	}
 }
 
-.btn {
+.header__button {
 	display: flex;
 	align-items: center;
 	justify-content: center;

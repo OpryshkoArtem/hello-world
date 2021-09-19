@@ -49,21 +49,21 @@
   color: #2B292D;
 }
 
-.navigation {
+.nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.navigation__list {
+.nav .navigation {
   display: flex;
   list-style-type: none;
   margin-right: 75px;
   margin-top: 12px;
 }
-.navigation__item + .navigation__item {
+.nav__item + .nav__item {
   margin-left: 49px;
 }
-.navigation__link {
+.nav__link {
   display: inline-block;
   text-decoration: none;
   font-family: "Work Sans", sans-serif;
@@ -71,19 +71,19 @@
   font-size: 18px;
   color: #2B292D;
 }
-.navigation__link-active {
+.nav__link-active {
   font-weight: 700;
 }
-.navigation__link-dd {
+.nav__link-dd {
   position: relative;
 }
-.navigation__link-dd::after {
+.nav__link-dd::after {
   content: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png");
   position: absolute;
   right: -19px;
 }
 
-.btn {
+.header__button {
   display: flex;
   align-items: center;
   justify-content: center;
