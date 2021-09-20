@@ -20,12 +20,12 @@
 	background-color: #334247;
 	position: relative;
 
-	&:nth-child(2)::before {
-		content: url('badge.png');
-		position: absolute;
-		top: -18px;
-		right: -18px;
-	}
+	// &:nth-child(2)::before {
+	// 	content: url('badge.png');
+	// 	position: absolute;
+	// 	top: -18px;
+	// 	right: -18px;
+	// }
 
 	& + .price-card {
 		margin-left: 18px;
