@@ -15,8 +15,16 @@
 	color: #fff;
 }
 
+.title {
+	height: 130px;
+	flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+}
+
 .price-card {
 	width: 380px;
+	height: 770px;
 	background-color: #334247;
 	position: relative;
 
@@ -50,7 +58,7 @@
 
 	&__price {
 		height: 103px;
-		margin-top: 29px;
+		// margin-top: 29px;
 		display: flex;
 		justify-content: center;
 		align-items: center;
