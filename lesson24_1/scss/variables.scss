@@ -1,0 +1,7 @@
+$lg: 1400px;
+
+@mixin for-desc {
+	@media screen and (min-width: $lg) {
+		@content;
+	};
+}
