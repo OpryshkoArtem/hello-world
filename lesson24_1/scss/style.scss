@@ -138,6 +138,9 @@ body {
 		border-radius: 8px;
 
 		transition: all 0.3s;
+		@include for-desc {
+			width: 262px;
+		}
 	}
 
 	&__item + .audience-cards__item {
