@@ -22,6 +22,7 @@ body {
 @media screen and (min-width: 1400px) {
   .audience {
     max-width: 1400px;
+    padding-top: 108px;
   }
 }
 
@@ -108,7 +109,7 @@ body {
 @media screen and (min-width: 1400px) {
   .audience__btn-link:first-child {
     margin-bottom: 0;
-    margin-right: 30px;
+    margin-right: 10px;
   }
 }
 .audience__btn .btn-white {
@@ -144,7 +145,7 @@ body {
 @media screen and (min-width: 1400px) {
   .audience-cards__item + .audience-cards__item {
     margin-top: 0;
-    margin-left: 10px;
+    margin-left: 30px;
   }
 }
 .audience-cards__img {
